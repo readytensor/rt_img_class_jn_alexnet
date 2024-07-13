@@ -1,17 +1,17 @@
-# ResNet18 Image Classifier with Pre-Training in PyTorch
+# AlexNet Image Classifier with Pre-Training in PyTorch
 
 Image Classifier for the Image Classification problem category as per Ready Tensor specifications.
 
 ## Project Description
 
-Leveraging pre-trained models for image classification, this repository is an implementation for pretrained ResNet18.
-
+Leveraging pre-trained models for image classification, this repository is an implementation for pretrained AlexNet.
 
 The following are the requirements for using your data with this model:
 
 - The training and testing data must consist of multiple directories. Each directory represents a class in the classification problem with the relevant images inside the directory. See **/examples/mini_mnist.zip**
 - The train and test files across all different class directories must have unique names. The class directories must be named after the label of that class.
 - No preprocessing is required for the images. Necessary preprocessing steps will be applied for the data to match the format expected by the pre-trained model.
+
 ---
 
 ## Project Structure
